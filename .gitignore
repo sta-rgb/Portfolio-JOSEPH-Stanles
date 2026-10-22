@@ -216,3 +216,24 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data Science project artifacts
+/data/raw/
+/data/processed/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.pkl
+*.joblib
+
+# Secrets and credentials
+.env.*
+*.pem
+*.key
+*.secret
+secrets.*
+
+# Notebook outputs
+*.ipynb_checkpoints
