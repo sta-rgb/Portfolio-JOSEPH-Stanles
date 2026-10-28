@@ -1,62 +1,66 @@
-# Financial Data Analysis Portfolio Project
+# Portfolio — Joseph Stanles
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+![Portfolio](https://img.shields.io/badge/Portfolio-Engineering%20Projects-0A66C2)
+![Focus](https://img.shields.io/badge/Focus-Software%20%7C%20Data%20%7C%20Embedded-1F8B4C)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
-## Contexte métier
-Ce projet simule une mission de conseil Big 4 : construire une analyse financière robuste, traçable et industrialisable pour aider à la prise de décision (performance, risque, rentabilité).
+Portfolio orienté **recruteur** : projets concrets, stack explicite, résultats observables et progression continue.
 
-## Méthodologie
-1. **Cadrage métier** : définition des KPI financiers et des hypothèses.
-2. **Data engineering léger** : ingestion, nettoyage, validation des données.
-3. **Exploration analytique** : EDA sur notebooks brouillons.
-4. **Modélisation** : segmentation, prévision ou scoring selon le cas d'usage.
-5. **Restitution** : visualisations, rapport synthétique, recommandations actionnables.
+## Profil rapide
+- Développement logiciel : **C**, architecture modulaire, logique de jeu
+- Data : **Python**, pipeline d’analyse et structuration projet
+- Électronique embarquée : prototypage léger avec composants simples (buzzer/biper)
 
-## Architecture du projet
+## Projets
 
-### Commandes Bash pour générer l'arborescence
-```bash
-mkdir -p data/raw data/processed \
-         notebooks/drafts \
-         src/{data,features,models,visualization,utils} \
-         reports/figures \
-         deliverables
+### 1) Space Miner — Jeu console C (Windows)
+Mini-jeu en C avec score, niveaux, bonus/malus et audio.
 
-touch src/data/__init__.py src/features/__init__.py src/models/__init__.py \
-      src/visualization/__init__.py src/utils/__init__.py
-```
+- Dossier : [`projects/space-miner`](./projects/space-miner)
+- README : [`projects/space-miner/README.md`](./projects/space-miner/README.md)
+- Points forts : architecture C par responsabilités, script de lancement, gestion état de partie
 
-### Structure cible
-```text
-.
-├── data/
-│   ├── raw/               # Données brutes (non versionnées)
-│   └── processed/         # Données transformées (non versionnées)
-├── notebooks/
-│   └── drafts/            # Notebooks exploratoires / brouillons
-├── src/
-│   ├── data/              # Ingestion, validation, nettoyage
-│   ├── features/          # Feature engineering
-│   ├── models/            # Entraînement / inférence
-│   ├── visualization/     # Graphiques et dashboards
-│   └── utils/             # Fonctions utilitaires
-├── reports/
-│   └── figures/           # Figures exportées
-├── deliverables/          # Livrables finaux (slides, synthèses)
-├── requirements.txt
-└── README.md
-```
+### 2) Super Bull Z — Jeu léger (prototype)
+Espace portfolio pour un jeu léger non encore publié publiquement.
 
-## Exécution locale
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-jupyter notebook
-```
+- Dossier : [`projects/super-bull-z`](./projects/super-bull-z)
+- README : [`projects/super-bull-z/README.md`](./projects/super-bull-z/README.md)
+- Points forts : concept, gameplay, roadmap de publication
+
+### 3) Projet électronique Biper/Buzzer
+Espace portfolio pour un projet électronique orienté signal sonore et logique embarquée.
+
+- Dossier : [`projects/electronics-biper`](./projects/electronics-biper)
+- README : [`projects/electronics-biper/README.md`](./projects/electronics-biper/README.md)
+- Points forts : schéma, composants, démonstration fonctionnelle
+
+### 4) Financial Data Analysis (Python)
+Projet d’analyse financière structuré (ingestion, nettoyage, exploration, modélisation, restitution).
+
+- Dossier : [`projects/financial-data-analysis`](./projects/financial-data-analysis)
+- README : [`projects/financial-data-analysis/README.md`](./projects/financial-data-analysis/README.md)
+
+## Compétences mobilisées
+- **Langages** : C, Python
+- **Data** : pandas, NumPy, scikit-learn, matplotlib, seaborn
+- **Outils** : Git/GitHub, structuration de projets, documentation technique
+- **Systèmes** : Windows console, bases d’électronique (buzzer/biper)
+
+## Intégrer des projets privés dans un portfolio public
+Tu peux valoriser des projets privés sans exposer le code source :
+
+1. **Créer une fiche projet publique** dans ce portfolio (contexte, objectifs, stack, architecture, résultats).
+2. **Ajouter des preuves non sensibles** : captures, GIF, schéma bloc, photos montage, métriques.
+3. **Décrire ton rôle et les choix techniques** (ce que tu as conçu, contraintes, arbitrages).
+4. **Indiquer le statut de confidentialité** : “code disponible sur demande” si possible.
+5. **Ajouter une roadmap** pour montrer la suite (tests, perf, déploiement, industrialisation).
+
+> Recommandation : conserve `main` comme vitrine stable, et travaille les évolutions en `feature/<nom>` puis merge après relecture.
+
+## Contact
+- LinkedIn : *(à compléter)*
+- CV : *(ajouter le lien ou fichier)*
+- Email : *(à compléter)*
 
 ## Licence
-Distribué sous licence MIT. Voir `LICENSE`.
+Ce dépôt est distribué sous licence MIT. Voir [`LICENSE`](./LICENSE).
