@@ -1,62 +1,43 @@
-# Financial Data Analysis Portfolio Project
+# Portfolio — Joseph Stanles
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Status](https://img.shields.io/badge/Status-In%20Progress-orange)
+Bienvenue sur mon portfolio de projets techniques.
+Ce dépôt présente mes réalisations avec une structure claire et professionnelle.
 
-## Contexte métier
-Ce projet simule une mission de conseil Big 4 : construire une analyse financière robuste, traçable et industrialisable pour aider à la prise de décision (performance, risque, rentabilité).
+## Présentation
+Je développe des projets orientés :
+- développement logiciel (C)
+- analyse de données (Python)
+- organisation de livrables propres et reproductibles
 
-## Méthodologie
-1. **Cadrage métier** : définition des KPI financiers et des hypothèses.
-2. **Data engineering léger** : ingestion, nettoyage, validation des données.
-3. **Exploration analytique** : EDA sur notebooks brouillons.
-4. **Modélisation** : segmentation, prévision ou scoring selon le cas d'usage.
-5. **Restitution** : visualisations, rapport synthétique, recommandations actionnables.
+## Projets
 
-## Architecture du projet
+### 1) Space Miner (C / Windows Console)
+Mini-jeu console en C avec gestion de grille, score, niveaux, bonus/malus et audio.
 
-### Commandes Bash pour générer l'arborescence
-```bash
-mkdir -p data/raw data/processed \
-         notebooks/drafts \
-         src/{data,features,models,visualization,utils} \
-         reports/figures \
-         deliverables
+- Dossier : [`projects/space-miner`](./projects/space-miner)
+- README projet : [`projects/space-miner/README.md`](./projects/space-miner/README.md)
 
-touch src/data/__init__.py src/features/__init__.py src/models/__init__.py \
-      src/visualization/__init__.py src/utils/__init__.py
-```
+### 2) Financial Data Analysis (Python) — En préparation
+Projet d’analyse financière structuré (ingestion, nettoyage, exploration, modélisation, restitution).
 
-### Structure cible
-```text
-.
-├── data/
-│   ├── raw/               # Données brutes (non versionnées)
-│   └── processed/         # Données transformées (non versionnées)
-├── notebooks/
-│   └── drafts/            # Notebooks exploratoires / brouillons
-├── src/
-│   ├── data/              # Ingestion, validation, nettoyage
-│   ├── features/          # Feature engineering
-│   ├── models/            # Entraînement / inférence
-│   ├── visualization/     # Graphiques et dashboards
-│   └── utils/             # Fonctions utilitaires
-├── reports/
-│   └── figures/           # Figures exportées
-├── deliverables/          # Livrables finaux (slides, synthèses)
-├── requirements.txt
-└── README.md
-```
+- Dossier : [`projects/financial-data-analysis`](./projects/financial-data-analysis)
 
-## Exécution locale
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-jupyter notebook
-```
+## Compétences mobilisées
+- **Langages** : C, Python
+- **Data** : pandas, NumPy, scikit-learn, matplotlib, seaborn
+- **Bonnes pratiques** : structuration de projet, documentation, versioning Git
+
+## Workflow Git recommandé
+Pour un portfolio maintenable :
+- `main` : vitrine stable et publiable
+- `feature/<nom>` : ajout/amélioration de fonctionnalité
+- `fix/<nom>` : correction ciblée
+- merge vers `main` après relecture et validation
+
+## Contact
+- LinkedIn : *(à compléter)*
+- CV : *(ajouter le lien ou fichier)*
+- Email : *(à compléter)*
 
 ## Licence
-Distribué sous licence MIT. Voir `LICENSE`.
+Ce dépôt est distribué sous licence MIT. Voir [`LICENSE`](./LICENSE).
