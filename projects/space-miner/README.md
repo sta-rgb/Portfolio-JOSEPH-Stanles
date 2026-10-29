@@ -43,7 +43,6 @@ SPACE_MINER.exe
 projects/space-miner/
 ├── README.md
 ├── LANCER_SPACE_MINER.bat
-├── config.txt
 ├── header.h
 ├── main.c
 ├── affichage.c
