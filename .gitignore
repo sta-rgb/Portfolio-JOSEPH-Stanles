@@ -235,5 +235,9 @@ __marimo__/
 *.secret
 secrets.*
 
+# Local game settings and save files
+/projects/space-miner/config.txt
+/projects/space-miner/save_*.dat
+
 # Notebook outputs
 *.ipynb_checkpoints
